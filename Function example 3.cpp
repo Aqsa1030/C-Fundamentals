@@ -4,7 +4,8 @@ using namespace std;
 //Calculate the factorial of any number
 long long factorial(int n) {
     if (n < 0) {
-        return -1; // Return -1 for negative numbers
+        // Return -1 for negative numbers
+        return -1; 
     }
     long long result = 1;
     for (int i = 1; i <= n; ++i) {
@@ -12,7 +13,7 @@ long long factorial(int n) {
     }
     return result;
 }
-
+// main function
 int main() {
     int number;
 
