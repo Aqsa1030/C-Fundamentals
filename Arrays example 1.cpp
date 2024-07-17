@@ -8,7 +8,6 @@ int main() {
     for (int i = 0; i < 5; i++) {
         reverse[i] = arr[4 - i];
     }
-
     // Output reversed array
     cout << "Reversed array: ";
     for (int i = 0; i < 5; i++) {
