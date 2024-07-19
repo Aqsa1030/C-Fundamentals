@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 void doubleValue(int* a) {
     *a = 2 * (*a);
 }
@@ -7,15 +7,13 @@ void doubleValue(int* a) {
 int main() {
     int num;
 
-    // Input an integer from the user
-    std::cout << "Enter a number: ";
-    std::cin >> num;
-
-    // Call doubleValue function with pointer to num
+    // enter value
+    cout << "Enter a number: ";
+    cin >> num;
     doubleValue(&num);
 
-    // Output the doubled value
-    std::cout << "Doubled value: " << num << std::endl;
+    // Output the value
+    cout << "Doubled value: " << num << endl;
 
     return 0;
 }
