@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 void swapNumbers(int* a, int* b) {
     int temp = *a;
     *a = *b;
@@ -8,10 +8,10 @@ void swapNumbers(int* a, int* b) {
 
 int main() {
     int num1 = 5, num2 = 10;
-    std::cout << "Before swapping: num1 = " << num1 << ", num2 = " << num2 << std::endl;
+    cout << "Before swapping: num1 = " << num1 << ", num2 = " << num2 << endl;
 
     swapNumbers(&num1, &num2);
 
-    std::cout << "After swapping: num1 = " << num1 << ", num2 = " << num2 << std::endl;
+    cout << "After swapping: num1 = " << num1 << ", num2 = " << num2 << endl;
     return 0;
 }
