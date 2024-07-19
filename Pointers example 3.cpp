@@ -1,9 +1,8 @@
 #include <iostream>
-
+using namespace std;
 bool isPrime(int* ptr) {
     int num = *ptr;
 
-    // Handle special cases
     if (num <= 1) {
         return false;
     }
@@ -11,7 +10,7 @@ bool isPrime(int* ptr) {
         return true;
     }
 
-    // Check for divisibility from 2 to sqrt(num)
+    // Check for divisibility from 2
     for (int i = 2; i * i <= num; ++i) {
         if (num % i == 0) {
             return false;
@@ -23,14 +22,14 @@ bool isPrime(int* ptr) {
 
 int main() {
     int number;
-    std::cout << "Enter a number: ";
-    std::cin >> number;
+    cout << "Enter a number: ";
+    cin >> number;
 
     if (isPrime(&number)) {
-        std::cout << number << " is a prime number." << std::endl;
+        cout << number << " is a prime number." << endl;
     }
     else {
-        std::cout << number << " is not a prime number." << std::endl;
+        cout << number << " is not a prime number." << endl;
     }
 
     return 0;
