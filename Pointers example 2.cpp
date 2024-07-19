@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int* findMax(int arr[], int size) {
     if (size == 0)
         return nullptr;
@@ -20,10 +20,10 @@ int main() {
     int* maxPtr = findMax(array, size);
 
     if (maxPtr != nullptr) {
-        std::cout << "Maximum element in array: " << *maxPtr << std::endl;
+        cout << "Maximum element in array: " << *maxPtr << endl;
     }
     else {
-        std::cout << "Array is empty." << std::endl;
+        cout << "Array is empty." << endl;
     }
     return 0;
 }
