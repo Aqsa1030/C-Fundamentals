@@ -30,8 +30,6 @@ int main() {
         cout << "Error! Invalid operation.";
         break;
     }
-
     cout << endl;
-
     return 0;
 }
