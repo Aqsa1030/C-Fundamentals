@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 int main() {
-    char choice;
+    char ch;
     float temperature, convertedTemp;
 
     cout << "Choose conversion:\n";
     cout << "1. Fahrenheit to Celsius\n";
     cout << "2. Celsius to Fahrenheit\n";
     cout << "Enter your choice (1 or 2): ";
-    cin >> choice;
+    cin >> ch;
 
     switch (choice) {
     case '1':
