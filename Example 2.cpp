@@ -10,7 +10,7 @@ int main() {
     cout << "Enter your choice (1 or 2): ";
     cin >> ch;
 
-    switch (choice) {
+    switch (ch) {
     case '1':
         cout << "Enter temperature in Fahrenheit: ";
         cin >> temperature;
@@ -27,8 +27,6 @@ int main() {
         cout << "Invalid choice!";
         break;
     }
-
     cout << endl;
-
     return 0;
 }
