@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    char operation;
+    char op;
     double num1, num2;
 
     cout << "Enter an operation (+, -, *, /): ";
@@ -10,7 +10,7 @@ int main() {
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
 
-    switch (operation) {
+    switch (op) {
     case '+':
         cout << num1 << " + " << num2 << " = " << num1 + num2;
         break;
