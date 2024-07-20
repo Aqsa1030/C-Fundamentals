@@ -2,7 +2,7 @@
 
 int main() {
     char choice;
-    double temperature, convertedTemp;
+    float temperature, convertedTemp;
 
     cout << "Choose conversion:\n";
     cout << "1. Fahrenheit to Celsius\n";
@@ -15,13 +15,13 @@ int main() {
         cout << "Enter temperature in Fahrenheit: ";
         cin >> temperature;
         convertedTemp = (temperature - 32) * 5 / 9;
-        cout << "Temperature in Celsius: " << convertedTemp << " °C";
+        cout << "Temperature in Celsius: " << convertedTemp << " Â°C";
         break;
     case '2':
         cout << "Enter temperature in Celsius: ";
         cin >> temperature;
         convertedTemp = (temperature * 9 / 5) + 32;
-        cout << "Temperature in Fahrenheit: " << convertedTemp << " °F";
+        cout << "Temperature in Fahrenheit: " << convertedTemp << " Â°F";
         break;
     default:
         cout << "Invalid choice!";
