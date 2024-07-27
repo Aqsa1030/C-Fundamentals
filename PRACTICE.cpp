@@ -12,6 +12,7 @@ int main()
     int mult = a * b;
     cout << "SUM = " << sum;
     cout << "DIFFERENCE = " << diff;
+    cout << "MULTIPLICATION = " <<mult;
     
 }
 
