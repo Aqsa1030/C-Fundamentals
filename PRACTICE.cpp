@@ -12,8 +12,8 @@ int main()
     int mult = a * b;
     cout << "SUM = " << sum << endl;
     cout << "DIFFERENCE = " << diff <<endl;
-    cout << "MULTIPLICATION = " <<mult;
-    cout << "QUOTIENT = " << quotient;
+    cout << "MULTIPLICATION = " << mult << endl;
+    cout << "QUOTIENT = " << quotient << endl;
     return 0;
     
     
