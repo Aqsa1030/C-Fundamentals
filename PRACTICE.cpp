@@ -13,6 +13,8 @@ int main()
     cout << "SUM = " << sum;
     cout << "DIFFERENCE = " << diff;
     cout << "MULTIPLICATION = " <<mult;
+    cout << "QUOTIENT = " << quotient;
+    
     
 }
 
