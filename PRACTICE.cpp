@@ -7,9 +7,11 @@ int main()
     cout << "Enter two integers :";
     cin >> a >> b;
     int sum = a + b;
-int quotient = a / b;
-int diff = a - b;
-int mult = a * b;
-cout << "SUM = " << sum;
+    int quotient = a / b;
+    int diff = a - b;
+    int mult = a * b;
+    cout << "SUM = " << sum;
+    cout << "DIFFERENCE = " << diff;
+    
 }
 
