@@ -14,6 +14,7 @@ int main()
     cout << "DIFFERENCE = " << diff;
     cout << "MULTIPLICATION = " <<mult;
     cout << "QUOTIENT = " << quotient;
+    return 0;
     
     
 }
