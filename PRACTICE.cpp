@@ -10,7 +10,7 @@ int main()
     int quotient = a / b;
     int diff = a - b;
     int mult = a * b;
-    cout << "SUM = " << sum;
+    cout << "SUM = " << sum << endl;
     cout << "DIFFERENCE = " << diff;
     cout << "MULTIPLICATION = " <<mult;
     cout << "QUOTIENT = " << quotient;
