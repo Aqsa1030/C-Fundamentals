@@ -26,7 +26,6 @@ int main()
         cout << c << " is odd number";
     }
     return 0;
-    
-    
+
 }
 
