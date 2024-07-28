@@ -18,6 +18,13 @@ int main()
     cout << endl;
     cout << "Enter a number to find whether it is even or odd : ";
     cin >> c;
+    if (c%2==0){
+        cout << c << " is even number";
+        
+    }
+    else{
+        cout << c << " is odd number";
+    }
     return 0;
     
     
