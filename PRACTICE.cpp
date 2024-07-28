@@ -28,6 +28,7 @@ int main()
     else{
         cout << c << " is odd number";
     }
+    cout << endl;
 
     string name;
 
