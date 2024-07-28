@@ -6,6 +6,7 @@ int main()
 {
     int a, b, c;
     cout << "Hello World!\n\n";
+    
     cout << "Enter two integers : ";
     cin >> a >> b;
     int sum = a + b;
@@ -17,6 +18,7 @@ int main()
     cout << "MULTIPLICATION = " << mult << endl;
     cout << "QUOTIENT = " << quotient << endl;
     cout << endl;
+    
     cout << "Enter a number to find whether it is even or odd : ";
     cin >> c;
     if (c%2==0){
