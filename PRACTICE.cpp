@@ -34,7 +34,7 @@ int main()
     cout << "Enter your name: ";
     getline(cin, name);
 
-    cout << "Hello " << name << "!" << std::endl;
+    cout << "Hello " << name << "!" << endl;
 
     
     return 0;
