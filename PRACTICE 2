@@ -1,1 +1,103 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int num1, num2, num3;
+
+    // Input three integers
+    cout << "Enter first integer: ";
+    cin >> num1;
+    cout << "Enter second integer: ";
+    cin >> num2;
+    cout << "Enter third integer: ";
+    cin >> num3;
+
+    // Find and display the largest number
+    int largest = num1;
+    if (num2 > largest) {
+        largest = num2;
+    }
+    if (num3 > largest) {
+        largest = num3;
+    }
+    cout << "The largest number is: " << largest << endl;
+
+    // Input a number to calculate its factorial
+    int factNum;
+    cout << "Enter a number to find its factorial: ";
+    cin >> factNum;
+
+    // Calculate and display the factorial
+    if (factNum < 0) {
+        cout << "Factorial is not defined for negative numbers." << endl;
+    } else {
+        long long fact = 1;
+        for (int i = 1; i <= factNum; ++i) {
+            fact *= i;
+        }
+        cout << "The factorial of " << factNum << " is: " << fact << endl;
+    }
+
+    // Input a number to check if it is prime
+    int primeNum;
+    cout << "Enter a number to check if it is prime: ";
+    cin >> primeNum;
+
+    bool isPrime = true;
+    if (primeNum <= 1) isPrime = false;
+    else if (primeNum <= 3) isPrime = true;
+    else if (primeNum % 2 == 0 || primeNum % 3 == 0) isPrime = false;
+    else {
+        for (int i = 5; i * i <= primeNum; i += 6) {
+            if (primeNum % i == 0 || primeNum % (i + 2) == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+    }
+    if (isPrime) {
+        cout << primeNum << " is a prime number." << endl;
+    } else {
+        cout << primeNum << " is not a prime number." << endl;
+    }
+
+    // Input two numbers to find their GCD
+    int gcdNum1, gcdNum2;
+    cout << "Enter first number for GCD calculation: ";
+    cin >> gcdNum1;
+    cout << "Enter second number for GCD calculation: ";
+    cin >> gcdNum2;
+
+    // Calculate GCD
+    int a = gcdNum1, b = gcdNum2;
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    cout << "The GCD of " << gcdNum1 << " and " << gcdNum2 << " is: " << a << endl;
+
+    // Input a list of numbers to calculate the average
+    int count;
+    cout << "Enter the number of elements: ";
+    cin >> count;
+
+    if (count > 0) {
+        int *numbers = new int[count];
+        cout << "Enter the numbers: ";
+        int sum = 0;
+        for (int i = 0; i < count; ++i) {
+            cin >> numbers[i];
+            sum += numbers[i];
+        }
+        double average = static_cast<double>(sum) / count;
+        cout << "The average is: " << average << endl;
+        delete[] numbers; // Free allocated memory
+    } else {
+        cout << "No numbers to average." << endl;
+    }
+
+    return 0;
+}
 
