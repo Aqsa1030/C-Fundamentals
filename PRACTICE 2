@@ -42,7 +42,7 @@ int main() {
     cout << "Enter second number for GCD calculation: ";
     cin >> gcdNum2;
 
-    // Calculate GCD
+    
     int a = gcdNum1, b = gcdNum2;
     while (b != 0) {
         int temp = b;
