@@ -24,7 +24,6 @@ int main() {
     cout << "Enter a number to find its factorial: ";
     cin >> factNum;
 
-    // Calculate and display the factorial
     if (factNum < 0) {
         cout << "Factorial is not defined for negative numbers." << endl;
     } else {
@@ -34,8 +33,9 @@ int main() {
         }
         cout << "The factorial of " << factNum << " is: " << fact << endl;
     }
+    cout << endl;
 
-    // Input a number to check if it is prime
+
     int primeNum;
     cout << "Enter a number to check if it is prime: ";
     cin >> primeNum;
