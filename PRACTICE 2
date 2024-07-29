@@ -17,8 +17,9 @@ int main() {
         largest = num3;
     }
     cout << "The largest number is: " << largest << endl;
+    cout << endl;
 
-    // Input a number to calculate its factorial
+
     int factNum;
     cout << "Enter a number to find its factorial: ";
     cin >> factNum;
