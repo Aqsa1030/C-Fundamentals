@@ -36,22 +36,7 @@ int main() {
     cout << endl;
 
 
-    int primeNum;
-    cout << "Enter a number to check if it is prime: ";
-    cin >> primeNum;
-
-    bool isPrime = true;
-    if (primeNum <= 1) isPrime = false;
-    else if (primeNum <= 3) isPrime = true;
-    else if (primeNum % 2 == 0 || primeNum % 3 == 0) isPrime = false;
-    else {
-        for (int i = 5; i * i <= primeNum; i += 6) {
-            if (primeNum % i == 0 || primeNum % (i + 2) == 0) {
-                isPrime = false;
-                break;
-            }
-        }
-    }
+   
     if (isPrime) {
         cout << primeNum << " is a prime number." << endl;
     } else {
