@@ -9,7 +9,6 @@ int main() {
     cin >> num2;
     cout << "Enter third integer: ";
     cin >> num3;
-
     int largest = num1;
     if (num2 > largest) {
         largest = num2;
