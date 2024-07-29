@@ -36,14 +36,7 @@ int main() {
     cout << endl;
 
 
-   
-    if (isPrime) {
-        cout << primeNum << " is a prime number." << endl;
-    } else {
-        cout << primeNum << " is not a prime number." << endl;
-    }
 
-    // Input two numbers to find their GCD
     int gcdNum1, gcdNum2;
     cout << "Enter first number for GCD calculation: ";
     cin >> gcdNum1;
