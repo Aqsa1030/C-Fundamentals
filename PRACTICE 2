@@ -1,11 +1,8 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
     int num1, num2, num3;
-
-    // Input three integers
     cout << "Enter first integer: ";
     cin >> num1;
     cout << "Enter second integer: ";
@@ -13,7 +10,6 @@ int main() {
     cout << "Enter third integer: ";
     cin >> num3;
 
-    // Find and display the largest number
     int largest = num1;
     if (num2 > largest) {
         largest = num2;
