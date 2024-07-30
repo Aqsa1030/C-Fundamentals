@@ -26,9 +26,6 @@ int main() {
         else
             cout << "Error! Division by zero.";
         break;
-    case '%':
-        cout << num1 << " % " << num2 << " = " << num1 % num2;
-        break;
     default:
         cout << "Error! Invalid operation.";
         break;
