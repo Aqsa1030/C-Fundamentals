@@ -14,13 +14,13 @@ int main() {
     case '1':
         cout << "Enter temperature in Fahrenheit: ";
         cin >> temperature;
-        convertedTemp = (temperature - 32) * 5 / 9;
+        convertedTemp = (temperature - 32) * 0.555;
         cout << "Temperature in Celsius: " << convertedTemp << " °C";
         break;
     case '2':
         cout << "Enter temperature in Celsius: ";
         cin >> temperature;
-        convertedTemp = (temperature * 9 / 5) + 32;
+        convertedTemp = (temperature * 1.8) + 32;
         cout << "Temperature in Fahrenheit: " << convertedTemp << " °F";
         break;
     default:
