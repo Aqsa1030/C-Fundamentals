@@ -4,7 +4,7 @@ int main() {
     char op;
     double num1, num2;
 
-    cout << "Enter an operation (+, -, *, /): ";
+    cout << "Enter an operation (+, -, *, /,%): ";
     cin >> op;
 
     cout << "Enter two numbers: ";
@@ -25,6 +25,9 @@ int main() {
             cout << num1 << " / " << num2 << " = " << num1 / num2;
         else
             cout << "Error! Division by zero.";
+        break;
+    case '%':
+        cout << num1 << " % " << num2 << " = " << num1 % num2;
         break;
     default:
         cout << "Error! Invalid operation.";
