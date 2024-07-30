@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int a;  long l;    char c;     float b;   double n;
+    
     cin >> a >> l >> c >> b >> n;
     cout << "Integer : " << a << "\n";
     cout << "Long : " << l << "\n";
