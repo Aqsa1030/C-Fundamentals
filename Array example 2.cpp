@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int arr[] = { 15, 22, 8, 42, 16, 45, 79, 99, 123, 786, 908};
+    int arr[] = { 124,999,807,15, 22, 8, 42, 16, 45, 79, 99, 123, 786, 908};
     int searchValue;
     cout << "Enter the value you want to search : ";
     cin >> searchValue;
@@ -14,7 +14,6 @@ int main() {
             break;
         }
     }
-
     if (!found) {
         cout << "Element " << searchValue << " not found in the array." << endl;
     }
