@@ -9,6 +9,6 @@ int main() {
             count++;
         }
     }
-    cout << "Occurrences of " << target << ": " << count << std::endl;
+    cout << "Occurrences of " << target << ": " << count << endl;
     return 0;
 }
