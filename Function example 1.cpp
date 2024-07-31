@@ -19,21 +19,21 @@ int  division(int a, int b) {
 }
 
 int main() {
-    int num1, num2;
+    int num1 , num2;
 
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
 
-    int addition = sum(num1, num2);
+    int addition = sum(num1 , num2);
     cout << "The sum is: " << addition << endl;
 
-    int subtraction = sub(num1, num2);
+    int subtraction = sub(num1 , num2);
     cout << "The subtaction is: " << subtraction << endl;
 
-    int multiplication = mult(num1, num2);
+    int multiplication = mult(num1 , num2);
     cout << "The multiplication is: " << multiplication << endl;
 
-    int result = division(num1, num2);
+    int result = division(num1 , num2);
     cout << "The division is: " << result << endl;
 
 }
