@@ -2,48 +2,39 @@
 using namespace std;
 
 int main() {
-    int number = 10;
+    int number;
+    cout << "Enter a number: " << endl;
+    cin >> number // Error 1: Missing semicolon
 
-    cout << "The number is: " << number << endl;
+    if (number % 2 == 0) {
+        cout << "The number is even" << endl // Error 2: Missing semicolon
+    } else
+        cout << "The number is odd" << endl; // Error 3: Missing curly braces for else block
 
-    // Error 1: Missing semicolon
-    cout << "This line is missing a semicolon" << endl
-
-    // Error 2: Variable not declared
-    cout << "Undefined variable: " << num << endl;
-
-    // Error 3: Incorrect type assignment
-    float pi = "3.14";
-
-    // Error 4: Mismatched parentheses
-    if (number > 5) {
-        cout << "Number is greater than 5" << endl;
+    for (int i = 0; i < 10; i++) // Error 4: Missing curly braces for for loop
+        cout << i << endl;
     
-    // Error 5: Incorrectly closed bracket
-    cout << "This is outside the if statement" << endl;
+    string name = John; // Error 5: Missing quotes around string
+    cout << "Hello, " << name << endl;
 
-    // Error 6: Function call without declaration
-    printMessage();
+    int arr[5] = {1, 2, 3, 4, 5};
+    for (int i = 0; i <= 5; i++) { // Error 6: Out of bounds array access
+        cout << arr[i] << " ";
+    }
+    cout << endl;
 
-    // Error 7: Mismatched quotation marks
-    cout << "Mismatched quotation mark << endl;
+    int* ptr = nullptr;
+    *ptr = 10; // Error 7: Dereferencing a null pointer
 
-    // Error 8: Array index out of bounds
-    int arr[3] = {1, 2, 3};
-    cout << "Array element: " << arr[3] << endl;
+    int x = "Hello"; // Error 8: Assigning string to integer
 
-    // Error 9: Missing return statement
-    // return 0;
+    cout << "Value of y is: " << y << endl; // Error 9: Using an uninitialized variable
 
-    // Error 10: Using undeclared namespace
-    std::cout << "This line is fine" << endl;
+    int arr2[5];
+    arr2[10] = 0; // Error 10: Array index out of bounds
 
-    // Error 11: Redeclaration of variable
-    int number = 20;
-    cout << "Redeclared number: " << number << endl;
+    void func(); // Error 11: Function declaration without a definition
+    func();
 
-    // Error 12: Syntax error
-    cout << "This line has a syntax error" <<;
-
-    return 0;
+    return 0 // Error 12: Missing semicolon
 }
