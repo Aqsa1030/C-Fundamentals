@@ -1,0 +1,49 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number = 10;
+
+    cout << "The number is: " << number << endl;
+
+    // Error 1: Missing semicolon
+    cout << "This line is missing a semicolon" << endl
+
+    // Error 2: Variable not declared
+    cout << "Undefined variable: " << num << endl;
+
+    // Error 3: Incorrect type assignment
+    float pi = "3.14";
+
+    // Error 4: Mismatched parentheses
+    if (number > 5) {
+        cout << "Number is greater than 5" << endl;
+    
+    // Error 5: Incorrectly closed bracket
+    cout << "This is outside the if statement" << endl;
+
+    // Error 6: Function call without declaration
+    printMessage();
+
+    // Error 7: Mismatched quotation marks
+    cout << "Mismatched quotation mark << endl;
+
+    // Error 8: Array index out of bounds
+    int arr[3] = {1, 2, 3};
+    cout << "Array element: " << arr[3] << endl;
+
+    // Error 9: Missing return statement
+    // return 0;
+
+    // Error 10: Using undeclared namespace
+    std::cout << "This line is fine" << endl;
+
+    // Error 11: Redeclaration of variable
+    int number = 20;
+    cout << "Redeclared number: " << number << endl;
+
+    // Error 12: Syntax error
+    cout << "This line has a syntax error" <<;
+
+    return 0;
+}
