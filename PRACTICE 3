@@ -27,18 +27,7 @@ int main() {
     
     cout << endl;
 
-    int* ptr = nullptr;
-    *ptr = 10; // Error 7: Dereferencing a null pointer
-
-    int x = "Hello"; // Error 8: Assigning string to integer
-
-    cout << "Value of y is: " << y << endl; // Error 9: Using an uninitialized variable
-
-    int arr2[5];
-    arr2[10] = 0; // Error 10: Array index out of bounds
-
-    void func(); // Error 11: Function declaration without a definition
     func();
 
-    return 0 // Error 12: Missing semicolon
+    return 0;
 }
