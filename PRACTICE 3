@@ -26,13 +26,14 @@ int main() {
     string name = "John"; 
     cout << "Hello ! " << name << endl;
     cout << endl;
-
+    cout << "COUNTING FROM 1 TO 5" <<endl;
     int arr[5] = {1, 2, 3, 4, 5};
     for (int i = 0; i < 5; i++) 
     { 
         cout << arr[i] << " " << endl;;
     }
     cout << endl;
+    cout << "CALLING FUNCTION" <<endl;
     func();
     cout <<endl;
     return 0;
