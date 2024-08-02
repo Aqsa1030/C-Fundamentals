@@ -7,7 +7,7 @@ int main() {
     cin >> number;
 
     if (number % 2 == 0) {
-        cout << "The number is even" << endl // Error 2: Missing semicolon
+        cout << "The number is even" << endl; 
     } else
         cout << "The number is odd" << endl; // Error 3: Missing curly braces for else block
 
