@@ -27,12 +27,6 @@ int main() {
         arr[i] = i;
     }
 
-    int* ptr;
-    *ptr = 5; // Error 7: Dereferencing uninitialized pointer
-
-    double pi = 3.14;
-    int circumference = 2 * pi * 10; // Error 8: Implicit conversion from double to int
-
     string name = 'Alice'; // Error 9: Incorrect string initialization
 
     cout << "Enter your age: ";
