@@ -27,8 +27,6 @@ int main() {
         arr[i] = i;
     }
 
-    string name = 'Alice'; // Error 9: Incorrect string initialization
-
     cout << "Enter your age: ";
     int age;
     cin >> age;
