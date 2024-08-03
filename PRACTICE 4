@@ -45,7 +45,7 @@ int main() {
         case 'D':
         case 'F':
             cout << "Fail" << endl;
-            break;
+            break;      
     }
 
     return 0;
