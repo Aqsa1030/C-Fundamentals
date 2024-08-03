@@ -26,7 +26,7 @@ int main() {
     for (int i = 0; i < 5; i++) {
         arr[i] = i;
     }
-
+    cout << endl;
     cout << "Enter your age: ";
     int age;
     cin >> age;
