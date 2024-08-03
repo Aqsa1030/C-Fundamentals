@@ -1,1 +1,55 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a, b; // Error 1: Incorrect input format
+
+    if (a > b) 
+        cout << "a is greater than b" << endl; // Error 2: Missing curly braces for if block
+
+    else if (a < b)
+        cout << "a is less than b" << endl; // Error 3: Missing curly braces for else if block
+    else
+        cout << "a is equal to b" << endl // Error 4: Missing semicolon
+
+    for (int i = 0; i < 10; i++) 
+        cout << "Count: " << i << endl // Error 5: Missing semicolon
+
+    int arr[5];
+    for (int i = 0; i < 6; i++) { // Error 6: Loop condition out of bounds
+        arr[i] = i;
+    }
+
+    int* ptr;
+    *ptr = 5; // Error 7: Dereferencing uninitialized pointer
+
+    double pi = 3.14;
+    int circumference = 2 * pi * 10; // Error 8: Implicit conversion from double to int
+
+    string name = 'Alice'; // Error 9: Incorrect string initialization
+
+    cout << "Enter your age: ";
+    int age;
+    cin >> age;
+    if (age > 18) // Error 10: Missing curly braces for if block
+        cout << "You are an adult." << endl;
+        cout << "Welcome!" << endl; // Error 11: Always executed due to missing curly braces
+
+    char grade;
+    cout << "Enter your grade (A, B, C, D, F): ";
+    cin >> grade;
+    switch (grade) {
+        case 'A':
+        case 'B':
+        case 'C':
+            cout << "Pass" << endl;
+        case 'D':
+        case 'F':
+            cout << "Fail" << endl; // Error 12: Missing break statements
+    }
+
+    return 0;
+}
 
