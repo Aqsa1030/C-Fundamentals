@@ -13,8 +13,9 @@ int main() {
     else if (a < b) {
         cout << "a is less than b" << endl; 
     }
-    else
-        cout << "a is equal to b" << endl // Error 4: Missing semicolon
+    else {
+        cout << "a is equal to b" << endl;
+    }
 
     for (int i = 0; i < 10; i++) 
         cout << "Count: " << i << endl // Error 5: Missing semicolon
