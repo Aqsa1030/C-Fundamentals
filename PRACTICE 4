@@ -9,8 +9,10 @@ int main() {
     if (a > b) {
         cout << "a is greater than b" << endl;
      }
-    else if (a < b)
-        cout << "a is less than b" << endl; // Error 3: Missing curly braces for else if block
+
+    else if (a < b) {
+        cout << "a is less than b" << endl; 
+    }
     else
         cout << "a is equal to b" << endl // Error 4: Missing semicolon
 
