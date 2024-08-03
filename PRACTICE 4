@@ -30,8 +30,9 @@ int main() {
     cout << "Enter your age: ";
     int age;
     cin >> age;
-    if (age > 18) // Error 10: Missing curly braces for if block
+    if (age > 18) {
         cout << "You are an adult." << endl;
+    }
         cout << "Welcome!" << endl; // Error 11: Always executed due to missing curly braces
 
     char grade;
