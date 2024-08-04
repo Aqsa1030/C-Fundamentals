@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // Error 1: Missing semicolon at the end of the line
-    int a = 5
+    int a = 5;
     
     // Error 2: Variable 'b' declared but not defined
     int b;
