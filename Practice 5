@@ -7,8 +7,7 @@ int main() {
     cin >> b;
 
     int sum = a + b;
-
-    // Error 6: Incorrect comparison operator, should be '=='
+'
     if (sum = 10) {
         // Error 7: Missing curly braces for the if block
         cout << "Sum is 10" << endl;
