@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-
-    int a = 5;
+    // Error 1: Missing semicolon at the end of the line
+    int a = 5
     
     // Error 2: Variable 'b' declared but not defined
     int b;
@@ -35,4 +35,3 @@ int main() {
 
     // Error 11: Missing return statement in main
 }
-
