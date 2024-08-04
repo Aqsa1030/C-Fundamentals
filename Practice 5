@@ -4,11 +4,8 @@ using namespace std;
 int main() {
     int a = 5 , b;
     cout << "Enter a number: ";
-    
-    // Error 4: Missing '&' to take input into variable 'b'
     cin >> b;
 
-    // Error 5: Undeclared variable 'sum'
     int sum = a + b;
 
     // Error 6: Incorrect comparison operator, should be '=='
