@@ -3,8 +3,6 @@ using namespace std;
 
 int main() {
     int a = 5 , b;
-
-    // Error 3: 'cout' should be 'std::cout' since 'using namespace std' is missing in this scope
     cout << "Enter a number: ";
     
     // Error 4: Missing '&' to take input into variable 'b'
