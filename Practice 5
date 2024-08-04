@@ -1,1 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Error 1: Missing semicolon at the end of the line
+    int a = 5
+    
+    // Error 2: Variable 'b' declared but not defined
+    int b;
+
+    // Error 3: 'cout' should be 'std::cout' since 'using namespace std' is missing in this scope
+    cout << "Enter a number: ";
+    
+    // Error 4: Missing '&' to take input into variable 'b'
+    cin >> b;
+
+    // Error 5: Undeclared variable 'sum'
+    int sum = a + b;
+
+    // Error 6: Incorrect comparison operator, should be '=='
+    if (sum = 10) {
+        // Error 7: Missing curly braces for the if block
+        cout << "Sum is 10" << endl;
+    
+    // Error 8: 'elseif' should be 'else if'
+    elseif (sum > 10) {
+        cout << "Sum is greater than 10" << endl;
+    } else {
+        // Error 9: Incorrect use of assignment operator, should be comparison '=='
+        if (sum = 0) {
+            cout << "Sum is zero" << endl;
+        // Error 10: Missing closing curly brace for the inner if statement
+        }
+    }
+
+    // Error 11: Missing return statement in main
+}
 
