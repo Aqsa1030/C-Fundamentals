@@ -2,26 +2,23 @@
 using namespace std;
 
 int main() {
-    int a = 5 , b;
+    int a = 5;
+    int b;
+
     cout << "Enter a number: ";
     cin >> b;
 
     int sum = a + b;
-'
-    if (sum = 10) {
-        // Error 7: Missing curly braces for the if block
+
+    if (sum == 10) {
         cout << "Sum is 10" << endl;
-    
-    // Error 8: 'elseif' should be 'else if'
-    elseif (sum > 10) {
+    } else if (sum > 10) {
         cout << "Sum is greater than 10" << endl;
     } else {
-        // Error 9: Incorrect use of assignment operator, should be comparison '=='
-        if (sum = 0) {
+        if (sum == 0) {
             cout << "Sum is zero" << endl;
-        // Error 10: Missing closing curly brace for the inner if statement
         }
     }
 
-    // Error 11: Missing return statement in main
+    return 0;
 }
